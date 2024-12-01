@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/thiago/projects/nassim/rpa/my-rsb-robots/."
+    ],
+    "python.terminal.activateEnvironment": false
+}
