@@ -1,6 +1,6 @@
 {
     "python.analysis.extraPaths": [
-        "/home/thiago/projects/nassim/rpa/my-rsb-robots/."
+        "c:/Users/t.martins/projects/public/rpa/Order Robots/."
     ],
     "python.terminal.activateEnvironment": false
 }
