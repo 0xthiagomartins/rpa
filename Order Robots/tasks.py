@@ -13,6 +13,13 @@ pdf = PDF()
 
 @task
 def order_all_robots():
+    """
+    Orders robots from RobotSpareBin Industries Inc.
+    Saves the order HTML receipt as a PDF file.
+    Saves the screenshot of the ordered robot.
+    Embeds the screenshot of the robot to the PDF receipt.
+    Creates ZIP archive of the receipts and the images.
+    """
     file_system.create_directory(path="output/receipts")
     browser.configure(slowmo=1000)
     open_robot_order_page()
