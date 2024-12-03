@@ -1,6 +1,6 @@
 {
     "python.analysis.extraPaths": [
-        "c:/Users/t.martins/projects/public/rpa/Order Robots/."
+        "/home/thiago/projects/nassim/rpa/Order Robots/."
     ],
     "python.terminal.activateEnvironment": false
 }
