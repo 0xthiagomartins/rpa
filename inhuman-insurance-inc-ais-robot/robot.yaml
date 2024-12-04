@@ -1,9 +1,9 @@
 
 tasks:
   Produce data:
-    produceData: python -m robocorp.tasks run producer.py
+    shell: python -m robocorp.tasks run producer.py
   Consume data:
-    consumeData: python -m robocorp.tasks run consumer.py
+    shell: python -m robocorp.tasks run consumer.py
 
 environmentConfigs:
   - environment_windows_amd64_freeze.yaml
