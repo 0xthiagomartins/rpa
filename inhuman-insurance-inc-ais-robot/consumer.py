@@ -26,7 +26,7 @@ def consume_traffic_data():
             item.fail(
                 exception_type="BUSINESS",
                 code="INVALID_TRAFFIC_DATA",
-                message=item.payload,
+                message=f"some error message with: {traffic_data}",
             )
 
 def validate_traffic_data(traffic_data) -> bool:
