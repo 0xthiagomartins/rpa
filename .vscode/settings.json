@@ -1,6 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "/home/thiago/projects/nassim/rpa/inhuman-insurance-inc-ais-robot/."
-    ],
-    "python.terminal.activateEnvironment": false
-}
